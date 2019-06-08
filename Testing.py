@@ -1,7 +1,7 @@
 from world import *
 
 w = World()
-w._map[7][2].is_explored = True
+# w._map[7][2].is_explored = True
 for y, row in enumerate(w._map):
 	for x, room in enumerate(row):
 		if w.has_explored_neighbors(x, y):
