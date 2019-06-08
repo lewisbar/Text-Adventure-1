@@ -146,11 +146,11 @@ Gold: {}
 		print(self.world.map_str(self.player.x_position, self.player.y_position))
 	
 	def show_map_outline(self):
-		# Cheat
+		# Cheat: Shows all walls
 		print(self.world.map_str(self.player.x_position, self.player.y_position, mode='outline'))
 	
 	def show_map_reveal(self):
-		# Cheat
+		# Cheat: Shows everything
 		print(self.world.map_str(self.player.x_position, self.player.y_position, mode='reveal'))
 			
 	# Actions
